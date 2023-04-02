@@ -74,10 +74,10 @@ export class CartComponent implements OnInit {
 
 class order {
   orderId!:number;
-  fullName!:string;
-  mobileNo!:number;
-  emailId!:string;
-  address!:Address;
+  //fullName!:string;
+  //mobileNo!:number;
+ //s emailId!:string;
+  //address!:Address;
   products!:Product[];
   totalAmount!:number;
   totalDiscount!:number;
@@ -85,14 +85,14 @@ class order {
   deliveryType!:string;
 
 }
-class Address{
-  line1!:string;
-  line2!:string;
-  city!:string;
-  state!:string;
-  pincode!:string;
-  country!:string;
-}
+//class Address{
+  //line1!:string;
+ // line2!:string;
+ // city!:string;
+  //state!:string;
+  //pincode!:string;
+ // country!:string;
+//}
 class Product{
   drugCode!:string;
   productName!:string;

@@ -1143,7 +1143,103 @@
       "isMobNoVerified": true,
       "id": 1
     }
+  ],
+  "orders": [
+    {
+      "customerName": "chotu",
+      "mobileNo": "08989898989",
+      "gender": true,
+      "dateOfBirth": "2023-03-28",
+      "emailId": "Akshay@123",
+      "address": {
+        "line1": "44555",
+        "line2": "fhfj",
+        "landmark": "ffg",
+        "city": "pune",
+        "state": "Maharashtra",
+        "pincode": ""
+      },
+      "products": [
+        {
+          "productName": "ELECTRAL POWDER 4.4GM",
+          "brand": "FDC LIMITED",
+          "type": "SACHET",
+          "drugCode": 381015,
+          "actualPrice": 4,
+          "discountedPrice": 4,
+          "quantity": 3,
+          "productTotalPrice": 12
+        }
+      ],
+      "totalAmount": 12,
+      "totalDiscount": 10,
+      "finalAmountToPay": 2,
+      "orderId": 7076762,
+      "id": 1
+    },
+    {
+      "customerName": "chotu",
+      "mobileNo": "09834357210",
+      "gender": true,
+      "dateOfBirth": "2023-03-27",
+      "emailId": "Akshay@123",
+      "address": {
+        "line1": "44555",
+        "line2": "fhfj",
+        "landmark": "ffg",
+        "city": "pune",
+        "state": "Maharashtra",
+        "pincode": ""
+      },
+      "products": [
+        {
+          "productName": "HIMALAYA NEEM & TURMERIC SOAP 125GM",
+          "brand": "THE HIMALAYA DRUG COMPANY",
+          "type": "BOX",
+          "drugCode": 10014260,
+          "actualPrice": 50,
+          "discountedPrice": 50,
+          "quantity": 1,
+          "productTotalPrice": 50
+        }
+      ],
+      "totalAmount": 50,
+      "totalDiscount": 10,
+      "finalAmountToPay": 40,
+      "orderId": 4630366,
+      "id": 2
+    },
+    {
+      "customerName": "chotu",
+      "mobileNo": "07350792942",
+      "gender": true,
+      "dateOfBirth": "2023-03-28",
+      "emailId": "Akshay@123",
+      "address": {
+        "line1": "44555",
+        "line2": "fhfj",
+        "landmark": "ffg",
+        "city": "pune",
+        "state": "Maharashtra",
+        "pincode": ""
+      },
+      "products": [
+        {
+          "productName": "Dettol Antiseptic Liquid Bottle Of 125 Ml",
+          "brand": "RECKITT BENCKISER",
+          "type": "BOTTLE",
+          "drugCode": 1000050509,
+          "actualPrice": 61,
+          "discountedPrice": 61,
+          "quantity": 1,
+          "productTotalPrice": 61
+        }
+      ],
+      "totalAmount": 61,
+      "totalDiscount": 10,
+      "finalAmountToPay": 51,
+      "orderId": 8224872,
+      "id": 3
+    }
   ]
 }
-    
-      
