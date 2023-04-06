@@ -1,5 +1,7 @@
 import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
+import { Observable } from 'rxjs';
 import { AuthService } from 'src/app/services/auth.service';
+import { SharedService } from 'src/app/services/shared.service';
 
 
 @Component({
@@ -15,13 +17,16 @@ export class HeaderComponent implements OnInit {
  isUserLoggedIn:boolean = false ;
   userDetails:any;
   // cartCounter!:Observable<number>
-  cartCounter:number = 0 ;
-  constructor(private auth:AuthService) { }
+   cartCounter:number = 0;
+  constructor(private auth:AuthService,private shared:SharedService) { }
 
   ngOnInit(): void {
-    //this.shared.cartCounterObs.subscribe((el:any)=>{
-      // this.cartCounter = el ;
-   // })
+   // this.cartCounter = this.shared.cartCounterObs;
+   this.shared.cartCounterObs.subscribe((el:any)=>{
+    this.cartCounter = el ;
+   })
+      
+   
 
 
    let userData = this.auth.getUserDetailsFromLocalStorage();
